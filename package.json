@@ -1,0 +1,40 @@
+{
+  "name": "minerva",
+  "version": "1.0.0",
+  "description": "Minerva es un proyecto de automatizacion de documentacion de proyectos. Consumira API de alguna IA y en base al contexto dado por el usuario debera poder resolver una estructura de documentacion.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfisogni/Minerva.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfisogni/Minerva/issues"
+  },
+  "homepage": "https://github.com/alfisogni/Minerva#readme",
+  "dependencies": {
+    "@ant-design/icons": "^6.1.0",
+    "antd": "^6.1.4",
+    "docx": "^9.5.1",
+    "file-saver": "^2.0.5",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0"
+  }
+}
