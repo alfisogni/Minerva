@@ -44,6 +44,7 @@
 
 ### 5. Datos de Ejemplo ✅
 - [x] Documentación completa de ejemplo (SGAL)
+ - [x] Documentación completa de ejemplo (Sistema Conceptual - SC)
 - [x] Mock de documentaciones guardadas
 - [x] Mock de historial de actividad
 - [x] Datos listos para testing

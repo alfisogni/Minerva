@@ -10,7 +10,7 @@ const mockHistorial: HistorialItem[] = [
   {
     id: '1',
     accion: 'Visualizó',
-    documento: 'Documentación API REST - Sistema SGAL',
+    documento: 'Documentación API REST - Sistema Conceptual (SC)',
     usuario: 'Juan Pérez',
     fecha: '2026-01-06 10:30',
     tipo: 'ver'
@@ -26,7 +26,7 @@ const mockHistorial: HistorialItem[] = [
   {
     id: '3',
     accion: 'Descargó',
-    documento: 'Documentación API REST - Sistema SGAL',
+    documento: 'Documentación API REST - Sistema Conceptual (SC)',
     usuario: 'Carlos López',
     fecha: '2026-01-05 14:20',
     tipo: 'descargar'
@@ -34,7 +34,7 @@ const mockHistorial: HistorialItem[] = [
   {
     id: '4',
     accion: 'Editó',
-    documento: 'Manual de Usuario - Sistema SGAL',
+    documento: 'Manual de Usuario - Sistema Conceptual (SC)',
     usuario: 'Juan Pérez',
     fecha: '2026-01-04 11:00',
     tipo: 'editar'

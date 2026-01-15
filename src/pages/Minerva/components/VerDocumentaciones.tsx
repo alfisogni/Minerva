@@ -11,13 +11,13 @@ const { Search } = Input;
 
 // Mock data
 const mockDocs: Documentacion[] = [
-  {
+    {
     id: '1',
-    titulo: 'Sistema de Gestión Administrativa Local (SGAL)',
-    descripcion: 'Documentación completa del sistema SGAL con calculadora de plazos, gestión de días inhábiles y módulos administrativos',
+    titulo: 'Sistema Conceptual (SC)',
+    descripcion: 'Documentación conceptual del Sistema Conceptual con ejemplos de cálculo de plazos y módulos administrativos',
     fecha: '2026-01-06',
     archivos: 12,
-    tags: ['SGAL', 'Gestión', 'Plazos', 'TypeScript'],
+    tags: ['SC', 'Gestión', 'Plazos', 'TypeScript'],
     autor: 'Juan Pérez',
     contenido: documentacionEjemplo
   },
@@ -32,8 +32,8 @@ const mockDocs: Documentacion[] = [
   },
   {
     id: '3',
-    titulo: 'Manual de Usuario - Sistema SGAL',
-    descripcion: 'Guía completa para usuarios finales del sistema',
+    titulo: 'Manual de Usuario - Sistema Conceptual (SC)',
+    descripcion: 'Guía completa para usuarios finales del Sistema Conceptual',
     fecha: '2026-01-02',
     archivos: 15,
     tags: ['Manual', 'Usuario', 'Guía'],

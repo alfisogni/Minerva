@@ -85,7 +85,7 @@ const NuevaDocumentacion: React.FC = () => {
     return (
       <VisorDocumentacion
         documentacion={documentacionEjemplo}
-        nombreDocumento="Documentación Generada - Sistema SGAL"
+        nombreDocumento="Documentación Generada - Sistema Conceptual (SC)"
         onVolver={() => setVerDocumentacion(false)}
       />
     );

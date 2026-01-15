@@ -5,8 +5,8 @@ import type { DocumentacionProyecto } from '../types/documentacion.types';
  */
 export const documentacionEjemplo: DocumentacionProyecto = {
   portada: {
-    proyecto: 'Sistema de Gestión Administrativa Local (SGAL)',
-    codigoId: 'SGAL-2026-001',
+    proyecto: 'Sistema Conceptual (SC)',
+    codigoId: 'SC-2026-001',
     estadoActual: 'En desarrollo',
     iteracionActual: 'v2.0',
     fechaUltimaActualizacion: '2026-01-06',
