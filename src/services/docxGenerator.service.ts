@@ -207,8 +207,8 @@ export class DocxGeneratorService {
   /**
    * Crea la tabla de Historial de Iteraciones
    */
-  private static createHistorialIteraciones(iteraciones: DocumentacionProyecto['historialIteraciones']): Paragraph[] {
-    const paragraphs: Paragraph[] = [
+  private static createHistorialIteraciones(iteraciones: DocumentacionProyecto['historialIteraciones']): Array<Paragraph | Table> {
+    const paragraphs: Array<Paragraph | Table> = [
       new Paragraph({
         text: '4. Historial de Iteraciones',
         heading: HeadingLevel.HEADING_1,
@@ -261,14 +261,8 @@ export class DocxGeneratorService {
         ]
       });
 
-      // Note: We can't add Table directly to paragraph array, need to handle differently
-      // For now, creating a text representation
-      paragraphs.push(
-        new Paragraph({
-          children: [new TextRun({ text: 'Tabla de iteraciones (ver documento para formato completo)', italics: true })],
-          spacing: { after: 400 }
-        })
-      );
+      // Insert the table directly into the children array so it is rendered in the document
+      paragraphs.push(table);
     }
 
     return paragraphs;
