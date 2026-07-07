@@ -130,34 +130,6 @@ El sistema genera documentos con la siguiente estructura:
 
 ---
 
-## Roadmap
-
-### MVP ✅
-- [x] Estructura base y componentes de interfaz
-- [x] Tipos TypeScript completos
-- [x] Servicio de generación `.docx`
-- [x] Mock de servicio de IA
-
-### En desarrollo 🚧
-- [ ] Integración real con APIs de IA (OpenAI / Claude / Gemini)
-- [ ] OCR para extracción de texto de imágenes y PDF escaneados
-- [ ] Backend con API REST y base de datos
-- [ ] Autenticación y gestión de usuarios
-- [ ] Exportación a PDF, HTML y Markdown
-- [ ] Colaboración en tiempo real
-
----
-
-## Contribuir
-
-1. Haz fork del repositorio
-2. Crea una rama: `git checkout -b feature/mi-feature`
-3. Commitea tus cambios: `git commit -m 'feat: descripción del cambio'`
-4. Push a tu rama: `git push origin feature/mi-feature`
-5. Abre un Pull Request
-
----
-
 ## Licencia
 
 [ISC](LICENSE)
