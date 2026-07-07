@@ -222,7 +222,7 @@ export class IAService {
  */
 export const IAConfig = {
   provider: 'mock', // 'openai' | 'claude' | 'gemini' | 'mock'
-  apiKey: process.env.VITE_IA_API_KEY || '',
+  apiKey: import.meta.env.VITE_IA_API_KEY || '',
   model: 'gpt-4', // o claude-3-sonnet, etc.
   maxTokens: 4000,
   temperature: 0.7
